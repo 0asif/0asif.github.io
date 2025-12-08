@@ -123,7 +123,7 @@ body::after {
     padding-bottom: 20px;
 }
 
-.dave {
+.asif {
     width: 30%;
     shape-outside: circle();
     border-radius: 50%;
@@ -137,11 +137,6 @@ body::after {
     /* color: #0b23bf; */
     color: #0044ff;
 }
-
-/* .main em { */
-/*     font-style: normal; */
-/*     color: #997C1D; */
-/* } */
 
 .long_list li {
     margin-bottom: 25px;
