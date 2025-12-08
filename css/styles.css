@@ -36,15 +36,11 @@ body::after {
     grid-area: top_gutter;
 }
 
-/* .top_gutter{ */
-/*     grid-area: bottom_gutter; */
-/* } */
-
 .navbar {
     grid-area: navbar;
     display: grid;
     grid-template-columns: 6fr 1fr 1fr 1fr;
-    grid-template-areas: "name research publications teaching";
+    grid-template-areas: "name about publications projects teaching";
     grid-gap: 20px;
     font-family: Raleway;
     font-size: 14px;
@@ -73,13 +69,18 @@ body::after {
     justify-self: start;
 }
 
-.research {
-    grid-area: research;
+.about {
+    grid-area: about;
     justify-self: end;
 }
 
 .publications {
     grid-area: publications;
+    justify-self: end;
+}
+
+.projects {
+    grid-area: projects;
     justify-self: end;
 }
 
