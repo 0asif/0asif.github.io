@@ -125,7 +125,7 @@ body::after {
 }
 
 .asif {
-    width: 30%;
+    width: 15%;
     shape-outside: circle();
     border-radius: 50%;
     float: right;
