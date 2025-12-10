@@ -25,7 +25,7 @@ body::after {
     background-image: url("../img/noise.jpg");
 }
 
-.custom_container {
+.container {
     display: grid;
     grid-template-rows: 50px 70px auto 50px;
     grid-template-areas: "top_gutter" "navbar" "content" "bottom_gutter";
@@ -36,7 +36,7 @@ body::after {
     grid-area: top_gutter;
 }
 
-.custom_navbar {
+.navbar {
     grid-area: navbar;
     display: grid;
     grid-template-columns: 6fr 1fr 1fr 1fr;
