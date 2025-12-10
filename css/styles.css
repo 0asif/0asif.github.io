@@ -116,7 +116,7 @@ body::after {
     text-justify: inter-word;
 }
 
-.main img {
+.comics {
     width: 45%;
     shape-outside: rectangle();
     float: right;
@@ -125,7 +125,7 @@ body::after {
 }
 
 .asif {
-    width: 15%;
+    width: 25%;
     shape-outside: circle();
     border-radius: 50%;
     float: right;
