@@ -125,8 +125,9 @@ body::after {
 }
 
 .asif {
-    width: 30%;
-    border-radius: 8px;
+    width: 15%;
+    shape-outside: rectangle();
+    border-radius: 10%;
     float: left;
     padding-left: 10px;
     padding-bottom: 10px;
