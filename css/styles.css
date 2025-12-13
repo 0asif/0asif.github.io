@@ -125,12 +125,12 @@ body::after {
 }
 
 .asif {
-    width: 15%;
-    shape-outside: rectangle();
-    border-radius: 10%;
-    float: left;
-    padding-left: 10px;
-    padding-bottom: 10px;
+    width: 30%;
+    shape-outside: circle();
+    border-radius: 50%;
+    float: right;
+    padding-left: 30px;
+    padding-bottom: 20px;
 }
 
 .main a {
