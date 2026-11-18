@@ -38,7 +38,7 @@
 			<br>
 			<b>Dates: </b> 13/Nov/2026 to 15/Nov/2026
 			<br>
-			<b>Award: </b>2nd Place
+			<b>Award: </b>2nd Place ($500)
 			<br>
 			<b>Team: </b>Asif Ali, Reed Haas, Kavya Puranam
 			<br>
@@ -49,7 +49,27 @@
 			<b>GitHub: </b><a href="https://github.com/kavpurana/cda-hackathon-26" target="_blank" rel="noopener">PocketKnocker (cda-hackathon-26)</a>
 		</li>
 
-			<li>
+		<li>
+			<b>Title: </b>PATHFinder: An Uncertainty-Aware, Human-in-the-Loop Cancer Pathology Review Tool
+			<br>
+			<b>Hackathon: </b>Ashby Prize in Computational Science Hackathon 2026 (<i>Multi-Modal Pathology Models: Exploring Practical Applications for Improving Clinical Workflows</i>)
+			<br>
+			<b>Location: </b>National Center for Supercomputing Applications (NCSA), University of Illinois, Urbana-Champaign
+			<br>
+			<b>Dates: </b> 17/Oct/2026 to 18/Oct/2026
+			<br>
+			<b>Award: </b>3rd Place
+			<br>
+			<b>Team: </b>Asif Ali, Emine Senkardesler, Kavya Puranam, Mert Senkardesler
+			<br>
+			<b>Description: </b> Built PATHFinder, a human-in-the-loop tile-triage pipeline for colorectal H&amp;E pathology that uses AI to rank and prioritize tissue regions for the pathologist rather than act as a final diagnostic arbiter. Two pathology vision-language foundation models (CONCH and MUSK) label every tile, and a router sorts tiles by agreement: tiles both models call tumour are flagged directly, tiles where the models disagree ("hard" tiles) and a "safety net" of the top 10% by a trained classifier's tumour probability are sent to a Claude Sonnet third reader, prompted with the six nearest expert-labelled CRC-VAL-HE-7K reference tiles (by CONCH cosine similarity) and the model scores. On 7,142 held-out NCT-CRC-HE-100K tiles, the reader examined only 12.9% of tiles while catching 97.8% of tumour tiles (999 of 1,021) and flagging just 1.2% of non-tumour tiles; on LC25000 colon it caught ~95% of tumour images with zero false flags, at a total cost of under $4 in batch API reads. The tool also includes tile search and a checked draft report with "Ask the slide", reducing review burden on the most clinically consequential and boundary regions and doubling as an interpretable training aid for residents.
+			<br>
+			<b>Presentation Slides: </b><a href="docs/Ashby-Hackathon-Group20.pdf" target="_blank" rel="noopener">PDF</a>
+			<br>
+			<b>GitHub: </b><a href="https://github.com/BARDAK1995/ashby-hackathon-2026" target="_blank" rel="noopener">PATHFinder (ashby-hackathon-2026)</a>
+		</li>
+
+		<li>
 			<b>Title: </b>AI Guided Therapeutic Strategies to Combat Viral Evolution
 			<br>
 			<b>Description: </b>
